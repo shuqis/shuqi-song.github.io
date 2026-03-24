@@ -3,7 +3,7 @@ layout: default
 title: Shuqi Song
 ---
 
-<img src="your-photo.jpg" 
+<img src="IMG_0036.jpeg" 
      alt="Shuqi Song" 
      style="float: right; width: 220px; border-radius: 10px; margin: 0px 0px 15px 20px;">
 
