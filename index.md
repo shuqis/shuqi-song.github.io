@@ -1,66 +1,102 @@
 ---
-# This is "front matter"
-# It tells Jekyll to use the default template from the theme
-layout: default 
+layout: default
+title: Shuqi Song
 ---
-<img src="IMG_5549.JPG" 
-     alt="Dayuan Wang" 
+
+<img src="your-photo.jpg" 
+     alt="Shuqi Song" 
      style="float: right; width: 220px; border-radius: 10px; margin: 0px 0px 15px 20px;">
 
-# Dayuan Wang
-Ph.D. Student in Biostatistics.  
-University of Florida, Gainesville, FL  
-Email: [dayuan.wang@ufl.edu](mailto:dayuan.wang@ufl.edu)  
+# Shuqi Song
+Ph.D. Student in Statistics  
+University of South Carolina, Columbia, SC  
+📧 shuqis@email.sc.edu  
+📞 (803) 470-9316  
 
-[LinkedIn](https://www.linkedin.com/in/dayuan-wang-bios/) | [GitHub](https://github.com/dayuan-wang) | [Google Scholar](https://scholar.google.com/citations?user=1QoaNEMAAAAJ&hl=en) 
+[LinkedIn](https://linkedin.com/in/shuqi-song) | [GitHub](https://github.com/your-username)
 
-## Writing
-I share short research notes, technical posts, and project updates here:
-[Browse all articles (tree view)](/articles/)
+---
 
-### Latest posts
-{% if site.posts.size > 0 %}
-{% for post in site.posts limit:3 %}
-* **{{ post.date | date: "%b %d, %Y" }}** - [{{ post.title }}]({{ post.url }})
-{% endfor %}
-{% else %}
-* No articles yet. First post coming soon.
-{% endif %}
+## About Me
+I am a Ph.D. student in Statistics at the University of South Carolina (2021–2026 expected).  
+My research focuses on **Bayesian modeling, biostatistics, and statistical learning**, with applications in biomedical data, biomarker analysis, and disease modeling.
 
-## Curiosities
-* A minigame to test your marketing intuition. [Click here.](https://dayuan-wang.github.io/Market-maker-game/)
+I am particularly interested in developing **robust statistical methods for complex, real-world data**, and translating them into practical tools for scientific and industrial applications.
 
-
-## About me
-I am a Ph.D. student in Biostatistics at the University of Florida (Aug 2022 - Dec 2026). 
-I am a Doctorate Research Assistant at the Sepsis and Critical Illness Research Center at University of Florida,
-focuses on driving translational research by applying multi-omics data to uncover immune mechanisms in critical illness.
-I design and validate robust, reproducible end-to-end bioinformatics pipelines for sequencing data (e.g., scRNA-seq, bulk RNA-seq) using R/Python in an HPC environment.
+---
 
 ## Research Interests
-* **Omics & Bioinformatics:** scRNA-seq, RNA-seq, Multi-omics integration, Immune profiling, Variant calling, CNV detection, Spatial transcriptomics analysis, Copy number variation (CNV) detection, Oncology
-* **Statistical Skills:** Machine learning, Deep learning, Survival analysis, Longitudinal analysis, Mixed-effects models, Causal inference, GLM, Sample size calculation, RWE
-* **Tools and Languages:** R, Python, SAS, SQL, TensorFlow, Linux (HPC environments, Slurm)
+* **Biostatistics & Bayesian Methods:** Bayesian hierarchical modeling, survival analysis, group testing, biomarker analysis  
+* **Statistical Modeling:** Semiparametric/nonparametric models, longitudinal analysis, mixed-effects models, GLMs  
+* **Machine Learning:** Supervised & unsupervised learning, deep learning, optimization  
+* **Data Science:** Predictive modeling, data wrangling, visualization, parallel computing  
 
-## News
-* **[Aug 2025]** I will be speaking at the Joint Statistical Meetings (JSM) in Nashville, TN. My talk is titled: "CN-RNN: a Supervised Learning Framework for Copy Number Variation Detection with Sequencing Data".
-* **[Jun 2025]** I presented a poster at the SHOCK Conference in Boston, MA, on "Sc-RNA Seq Identifies Age as Effect Modifier of Lymphocytes' Transcriptomic Changes in Murine Sepsis".
+---
 
-## Publications
-* **D Wang**, C Rodhouse, H Tang, et al. "Single-cell Transcriptomic Analysis Reveals Age- but not Sex-dependent Lymphocyte Immune Responses in Murine Sepsis."
-    (In Preparation). (2025).
-* **D Wang**, F Qin et al. "CN-RNN: a Supervised Learning Framework for Copy Number Variation Detection with Sequencing Data."
-    (In Preparation). (2025).
-* JC Rincon, **D Wang**, VE Polcz, et al. "Innate immune training in the neonatal response to sepsis."
-    *Molecular Medicine*, 31(1), 159. (2025).
-* C Rodhouse, **D Wang**, H Tang, et al. "Age-and Sex-Driven Transcriptional and Metabolic Diversity in Myeloid-Derived Suppressor Cells After Mouse Sepsis."
-    *bioRxiv*, 2025.10.06.680736. (2025).
+## Skills
+**Languages & Tools:**  
+R, Python, SQL, SAS, C, R Shiny, RStan, Tableau, Linux (HPC), LaTeX  
 
-## Honors and Awards
-* PhD Fellowship in Artificial Intelligence, University of Florida, FL (2024-2025)
-* Department Achivement Award, Preliminary Exam Award, University of Florida, FL (Aug 2023)
-* Student Research Travel scholarship, Rutgers Univeristy, NJ (Nov 2019)
-* Outstanding Undergraduate Student Scholarship Peking University, China (2014 - 2018)
-* Gold Medal, 25th International Biology Olympiad Bali, Indonesia (July 2014)
+**Core Strengths:**  
+Bayesian modeling · Statistical inference · Data analysis · High-performance computing  
 
-## Activities
+---
+
+## Experience
+
+### Summer Statistics Intern  
+**Pfizer**, Andover, MA · *May 2025 – Aug 2025*  
+* Developed an automated **Bayesian OOS prediction framework** for biopharmaceutical risk assessment  
+* Built an interactive **R Shiny app** integrating historical and real-time release data  
+* Evaluated multiple prior specifications and their impact on prediction accuracy  
+
+### Non-Clinical & Diagnostics Statistician Intern  
+**Zoetis Inc. (Remote)** · *May 2024 – Aug 2024*  
+* Built **Bayesian hierarchical mixed models** for stability analysis  
+* Applied **Bayes factors** for model selection  
+* Delivered user-friendly Shiny tools for non-statisticians  
+
+---
+
+## Research Projects
+
+### Bayesian Probit Frailty Model with Spatial Effects  
+* Developed a semiparametric Bayesian model for **group-tested disease data**  
+* Modeled **spatial correlation + inter-disease dependence**  
+* Implemented efficient Gibbs sampling and validated via simulation  
+
+### Two-stage Logistic Regression with Pooled Biomarkers  
+* Proposed a **two-stage estimation framework**  
+* Reconstructed latent biomarker values from pooled data  
+* Achieved efficient and consistent estimation  
+
+### Bayesian AFT Model for Misclassified Data  
+* Designed a robust **semiparametric AFT model**  
+* Used **Dirichlet process mixtures** for flexible error modeling  
+* Applied to real-world disease surveillance data  
+
+---
+
+## Publications & Work in Progress
+* Bayesian modeling for group-tested current status data (in progress)  
+* Logistic regression with pooled biomarkers (in progress)  
+* Bayesian AFT modeling for misclassified data  
+
+---
+
+## Awards
+* **Best Student Presentation Award**, SC-ASA Palmetto Symposium (2024)  
+* **PhD Travel Award**, University of South Carolina (2024)  
+* **Outstanding Graduate Assistant Award** (2023)  
+
+---
+
+## Conference
+* **SC-ASA Palmetto Symposium 2024**, Speaker  
+* **ENAR 2024 Spring Meeting**, Speaker  
+
+---
+
+## More
+👉 [Projects / Articles](/articles/)  
+👉 (You can add blog, notes, or portfolio here)
