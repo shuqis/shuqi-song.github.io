@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+
+# Select a theme
+theme: jekyll-theme-minimal
+
+# Site-wide title (appears in browser tab)
+title: Dayuan Wang
+
+# Site-wide description
+description: PhD Student in Biostatistics at the University of Florida.
+
+google_analytics: G-6WFBERR0W2
+
+# Blog/article URLs
+permalink: /:categories/:year/:month/:day/:title/
+
+# Keep generated files out of source control noise
+exclude:
+  - README.md
